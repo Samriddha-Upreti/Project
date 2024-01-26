@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+       
+
+        <link rel="stylesheet" href="signup/signup.css">
+
+    </head>
+    <body>
+        
+        <form id="loginForm" action="signup/signup.php" method="post">
+            <div class="container">
+                
+                <h2>Register Here</h2><br>
+            </div>
+           
+                <!-- <input autocomplete="off" type="text" id="FirstName" name="FirstName" required placeholder="First Name">
+                <input autocomplete="off" type="text" id="LastName" name="LastName" required placeholder="Last Name"> -->
+                <input autocomplete="off" type="text" id="new_username" name="new_username" required placeholder="Username">
+                <!-- <select id="gender" name="gender">
+                <?php
+                // include("database/connection.php");
+
+                // $result=$conn->query("SELECT * FROM GenderTable");
+                // while($row=$result->fetch(PDO::FETCH_ASSOC)){
+                //     echo"<option value=\"{$row['GenderID']}\>{$row['GenderTitle']}</option>";
+
+                // }
+                // $conn=null;
+                ?>
+                </select> -->
+              
+           
+                <!-- <input autocomplete="off" type="email" id="email" name="email" placeholder="Email" required>
+                <input autocomplete="off" type="tel" id="contact_no" name="contact_no" placeholder="Contact Number" required> -->
+                <input autocomplete="off" type="password" id="new_password" name="new_password" placeholder="Password" required>
+                <input autocomplete="off" type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password" required>
+
+                <button type="submit" onclick="signup()">Signup</button>
+          
+        </form>
+        <div id="loginMessage"></div>
+        
+        <script src="signup/signup.js"></script>
+    </body>
+    </html>
+    

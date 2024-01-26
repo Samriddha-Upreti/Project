@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4d8;
+}
+
+form {
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+   
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    
+}
+
+button {
+    background-color: #000000;
+    color: white;
+
+    width: 300px;
+    
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* Add this to your login.css file */
+.input-container input[type="text"],.input-container input[type="text"] {
+    position: relative;
+    margin-bottom: 25px;
+    border: none; 
+    outline: none;
+}
+
+.input-container input[type="text"] i,.input-container input[type="text"] i {
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    transform: translateY(-50%);
+   border: none;
+   outline: none;
+}
+
+#loginForm {
+    text-align: center;
+}
+
+#loginForm input,
+#loginForm button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    
+    color: #000000;
+}
+.jj{
+    text-align: right;
+    font-size: small;
+}
+.input-container.remember-me {
+    text-align: left;
+}
+
+.input-container.remember-me input[type="checkbox"],
+.input-container.remember-me label {
+    display: inline-block;
+    vertical-align: auto;
+    align-content: flex-start;
+    margin: 0;
+    font-size: small;
+}
+.signup{
+    color: #000000;
+    text-decoration: none;
+}
+.signuplink{
+    text-decoration: none; /* Remove underline */
+    color: inherit;
+}
