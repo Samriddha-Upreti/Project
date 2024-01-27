@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "appService.defaultWebAppToDeploy": "/subscriptions/aaa9cc83-6ae0-48a4-9ad7-63a5fc142841/resourceGroups/allinoneecommerce_group/providers/Microsoft.Web/sites/allinoneecommerce",
+    "appService.deploySubpath": "."
 }
